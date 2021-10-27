@@ -19,7 +19,7 @@
 
     // get the current date
     // show date 180 days ago
-    // show date 28 days ago
+    // show date 8 weeks ago
     // show 16 y/o and 18 y/o DOBs
 
     const monthArr = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
@@ -50,7 +50,7 @@
 
 
       return (
-        <div>
+        <div id="main">
           <table>
             <tbody>
             <tr>
@@ -64,6 +64,10 @@
             <tr>
               <td>Six months ago (180 days):</td>
               <td>{formatDate(daysAgo(180, today))}</td>
+            </tr>
+            <tr>
+              <td>21 days:</td>
+              <td>{formatDate(daysAgo(21, today))}</td>
             </tr>
             <tr>
               <td>18 years old:</td>
