@@ -1,4 +1,4 @@
-# Covid Vaccination Date Checker
+# Covid Vaccination Date Helper
 
 Live at https://seifelg.github.io/daysago
 
